@@ -1,0 +1,39 @@
+body{ 
+    background-image:url("ak.jpg");
+    background-repeat: no-repeat; 
+    background-size:cover;
+    background-position: relative;
+}
+#frog{
+    width:250px;
+    z-index:-1;
+    position:absolute;
+    bottom:160px;
+    right:1300px;
+}
+#land{
+    width:100%;
+    margin-right:-200px;
+    height:100%;
+    position:absolute;
+}
+.land{
+    width:236px;
+    height:197px;
+    background:url('leaf1.png') 0 0 ;
+    background-repeat:no-repeat;
+    z-index:-1;
+    display:inline-block;
+}
+.noland{
+    width:236px;
+    height:197px;
+    z-index:-1;
+    display:inline-block;
+}
+#leaves{
+    position:absolute;
+    bottom:230px;
+    height: 197px;
+    width:108%;
+}
